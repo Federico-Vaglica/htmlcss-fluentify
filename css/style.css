@@ -25,12 +25,32 @@
 }
 
 .first-line {
-    min-width: 1000px;
     padding-top:10px;
 }
 
-.left-container, .right-container {
+.logo{
+    padding: 5px 0px 5px 8px;
     float: left;
+    color:white;
+}
+
+.voci ul li {
+  float:left ;
+  display:inline;
+  padding: 14px 5px 10px 14px;
+  color: white;
+}
+
+.log-in {
+    display: inline;
+    float: right;
+}
+
+.log-in a {
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    padding-left: 20px;
 }
 
 .both-container {
@@ -58,47 +78,11 @@
     float: right;
 }
 
-.sentences {
-    /*height: 70px;*/
-    text-align: center;
-    padding: 10px;
-}
-
-.box {
-    width: 33.3333%;
-    float: left;
-    padding: 15px;
-    text-align: center;
-    /*height: 200px;*/
-}
-
-.logo{
-    padding: 5px 0px 5px 8px;
-    float: left;
-    color:white;
-}
-
-.voci {
-    float: left;
-    padding-top: 11px;
-}
-
-.voci ul li {
-  float:left ;
-  display:inline;
-  padding: 10px 5px 10px 10px;
-  color: white;
-}
-
-.log-in {
-    display: inline;
-    float: right;
-}
 
 .button, .button1{
   background-color: #4CAF50; /* Green */
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -109,13 +93,25 @@
 .button2 {
     background-color: #0d325a ;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 1px solid white;
     border-radius: 5px;
+}
+
+.voci {
+    padding-top: 11px;
+}
+
+
+
+.sentences {
+    /*height: 70px;*/
+    text-align: center;
+    padding: 10px;
 }
 
 
